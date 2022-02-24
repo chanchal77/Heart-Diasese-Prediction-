@@ -15,14 +15,12 @@ def predict():
     input_features = [float(x) for x in request.form.values()]
     features_value = [np.array(input_features)]
     
-    features_name = [ "age", "trestbps","chol","thalach", "oldpeak", "sex_0",
-                       "  sex_1", "cp_0", "cp_1", "cp_2", "cp_3","  fbs_0",
-                        "restecg_0","restecg_1","restecg_2","exang_0","exang_1",
-                        "slope_0","slope_1","slope_2","ca_0","ca_1","ca_2","thal_1",
-                        "thal_2","thal_3"]
+    features_name = [ "age", "sex","cp","trestbps","chol","fbs","restecg",
+                        "thalach", "exang","oldpeak","slope","ca","thal","target"
+                    ]
     
-    df = pd.DataFrame(features_value, columns=features_name)
-    output = model.predict(df)
+    dataset = pd.DataFrame(features_value, columns=features_name)
+    output = model.predict(dataset)
         
     if output == 1:
         res_val = "** heart disease **"
