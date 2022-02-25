@@ -16,11 +16,11 @@ def predict():
     features_value = [np.array(input_features)]
     
     features_name = [ "age", "sex","cp","trestbps","chol","fbs","restecg",
-                        "thalach", "exang","oldpeak","slope","ca","thal","target"
+                        "thalach", "exang","oldpeak","slope","ca","thal"
                     ]
     
-    dataset = pd.DataFrame(features_value, columns=features_name)
-    output = model.predict(dataset)
+    df = pd.DataFrame(features_value, columns=features_name)
+    output = model.predict(df)
         
     if output == 1:
         res_val = "** heart disease **"
@@ -29,6 +29,6 @@ def predict():
         
 
     return render_template('index.html', prediction_text='Patient has {}'.format(res_val))
-
-if __name__ == "__main__":
-    app.run()
+    
+if __name__ == '__main__':
+app.run(debug=True)
