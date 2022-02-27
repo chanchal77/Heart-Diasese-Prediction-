@@ -1,25 +1,23 @@
-# Heart-Diasese-Prediction
+<html>
+  <body>
+    <h2> Table of content </h2><br>
+    &#x2686; <a href ="#demo"> Demo </a><br>
+    &#x2686; <a href ="#Installation"> Installation </a><br>
+      &#x2686; Run <br>
+      &#x2686; Deployement on Heroku <br>
+      &#x2686; Flowchart <br>
+      &#x2686; To Do <br>
+      &#x2686; Technologies Used <br>
+      &#x2686; Team  <br>
+      &#x2686; Licence <br>
+      &#x2686; Credits <br>
 
-<html><body>
-<h2>Table of content</h2>
-&#9900; Demo<br>
-&#9900; Overview<br>
-&#9900; Technical aspects<br>
-&#9900; Installation <br>
-&#9900; Run <br>
-&#9900; Deployment on Heroku <br>
-&#9900; To Do <br>
-&#9900; Technology used <br>
-&#9900; Team <br>
-&#9900; Licence <br>
-&#9900; Credits <br>
-<h2>Demo</h2>
-&#9900; Link : https://heartdisease-predictorapp.herokuapp.com/<br>
+  <h2><div id = "demo">Demo</div> </h2><br>
+      &#x2686; Link:  https://heartdisease-predictorapp.herokuapp.com/<br>
+    ![screen](https://user-images.githubusercontent.com/54575201/155881893-76d95246-3752-444f-a9ac-db4a86ade70a.png<br>
+    <h2><div id = "Installation">Installation</div> </h2><br>
+
+  </body>
 
 
-
-  
-  
-  
-</body>
-</html>
+ </html>
