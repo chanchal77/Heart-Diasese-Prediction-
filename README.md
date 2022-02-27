@@ -14,7 +14,7 @@
 
   <h2><div id = "demo">Demo</div> </h2><br>
       &#x2686; Link:  https://heartdisease-predictorapp.herokuapp.com/<br>
-    ![screen](https://user-images.githubusercontent.com/54575201/155881893-76d95246-3752-444f-a9ac-db4a86ade70a.png<br>
+       ![Uploading screen.png…]()<br>
     <h2><div id = "Installation">Installation</div> </h2><br>
 
   </body>
