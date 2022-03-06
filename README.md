@@ -14,7 +14,7 @@
       &#x2686; <a href ="#Credits"> Credits</a> <br>
 
   <h2><div id = "demo">Demo</div> </h2><br>
-        &#x2686; Link: https://hertdisease-predictoreapp.herokuapp.com/<br>
+        &#x2686; Link : https://hertdisease-predictoreapp.herokuapp.com/<br>
     
    <h2><div id = "Installation">Installation</div> </h2><br>
         The Code is written in Python 3.8. If you don't have Python installed you can find it ,<a href ="https://www.python.org/downloads/release/python-380/" >here</a>.         If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory<br>
