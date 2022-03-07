@@ -35,6 +35,9 @@
     $ git commit -am "make it better"
     $ git push heroku master
     $ heroku git:remote -a hertdisease-predictoreap
+    
+  <h2><div id = "Flowchart">Flowchart</div> </h2><br>
+    <img scr=""/>
   </body>
 
 
