@@ -6,11 +6,8 @@
       &#x2686;<a href ="#Run"> Run </a><br>
       &#x2686; <a href ="#Deployement on Heroku"> Deployement on Heroku </a><br> 
       &#x2686; <a href ="#Flowchart"> Flowchart </a> <br>
-      &#x2686; <a href ="#To Do">  To Do</a> <br>
-      &#x2686;  <a href ="# Technologies Used"> Technologies Used</a>  <br>
-      &#x2686; <a href ="#Team"> Team</a>  <br>
-      &#x2686; <a href ="#Licence"> Licence</a> <br>
-      &#x2686; <a href ="#Credits"> Credits</a> <br>
+      &#x2686;  <a href ="#Technologies Used">Technologies Used</a>  <br>
+      
     
    <h2><div id = "Installation">Installation</div> </h2><br>
         The Code is written in Python 3.8. If you don't have Python installed you can find it ,<a href ="https://www.python.org/downloads/release/python-380/" >here</a>.         If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory<br>
@@ -33,5 +30,14 @@
     $ heroku git:remote -a hertdisease-predictoreap
     
   <h2><div id = "Flowchart">Flowchart</div> </h2><br>
+    <img src="https://github.com/chanchal77/Heart-Diasese-Prediction-/blob/main/heart%20disease%20predictor/flowchart.png?raw=true">
+  <h2><div id = "Technologies Used">Technologies Used</div> </h2><br>
+    Language used : Python<br>
+    libraries used : Numpy, Pandas, Matplotlib<br>
+    Domain : Machin learning <br>
+    platform : heroku
+   
+    
  </body></html> 
-![flowchart](https://user-images.githubusercontent.com/54575201/157651450-edca123e-88a1-444f-8f9c-a9022406a55f.png)
+ 
+
